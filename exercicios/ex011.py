@@ -8,6 +8,7 @@ largura = float(input('LARGURA -> '))
 area = altura*largura
 litrosNecess = area/2
 
+print('ALTURA -> {:.2f}m\nLARGURA -> {:.2f}'.format())
 print('\nÁREA -> {:.2f}m²'.format(area))
 print('QNT DE LITRO NECESSÁRIA -> {:.2f} Litros'.format(litrosNecess))
 

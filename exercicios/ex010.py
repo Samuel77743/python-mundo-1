@@ -4,7 +4,7 @@ print('{:-^20}'.format('REAL >>> DÓLAR'))
 
 cotacao = 4.98
 
-real = float(input('Quantos Reais você tem -> '))
+real = float(input('Quantos Reais você tem -> R$ '))
 dolar = real/cotacao
 
 print("\nCONVERSÃO:")

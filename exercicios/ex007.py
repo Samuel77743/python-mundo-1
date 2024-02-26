@@ -6,4 +6,4 @@ nota2 = int(input('Digite a nota da 2º nota -> '))
 
 media = (nota1 + nota2) / 2
 
-print('\nA nota tirada foi: {:.2f}'.format(media))
+print('\nA média entre {:.2f} e {:.2f} é igual a {:.2f}'.format(nota1, nota2, media))
