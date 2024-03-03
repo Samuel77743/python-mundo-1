@@ -1,6 +1,7 @@
 #Biblioteca de gerar numero aleatório
-from random import randint
+import random
 
-numeroAleatorio = randint(1, 10)
+numeroAleatorio = random.randint(1, 10)
+numeroAleatorio 
 
 print(f'{numeroAleatorio}')

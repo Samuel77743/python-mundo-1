@@ -11,4 +11,4 @@ print('É somente espaço(s)? {}'.format(resp.isspace()))
 print('\nEstá em maiúsculo? {}'.format(resp.isupper()))
 print('Está em minúsculo? {}'.format(resp.islower()))
 
-print("Mistura Maiúsculas/Minúsculas -> {}".format(resp.istitle()))
+print("Primeira letra de cada palavra em maiúsculo -> {}".format(resp.istitle()))

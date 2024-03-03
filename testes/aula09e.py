@@ -11,7 +11,7 @@ print('\n{:=^20}'.format('STRIP'))
 texto = '  Samuel  '
 textoStrip = texto.strip()
 print(f'{texto} ------- Tamanho: {len(texto)}')
-print(f'{textoStrip} ------ Tamaho: {len(textoStrip)}')
+print(f'{textoStrip} ------ Tamanho: {len(textoStrip)}')
 
 texto = '====Berg===='
 textoStrip = texto.strip('=')

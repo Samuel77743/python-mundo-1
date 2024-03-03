@@ -1,5 +1,5 @@
 import random
-#Sorteando vários nomes
+#Sorteando vários nomes / Embaralhando listas
 
 print('{:=^20}'.format('SORTEIO DE NOMES'))
 

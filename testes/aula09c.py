@@ -14,6 +14,7 @@ print('\n{:=^20}'.format('Contagem de Texto'))
 teste = 'Minha Brasília Amarela'.count('a')
 print(teste)
 
+# Jesus
 teste = 'super super man'.count('super')
 print(teste)
 teste = 'super super man'.count('super', 0, 5)
