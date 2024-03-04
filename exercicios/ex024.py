@@ -1,5 +1,10 @@
-# Tem Silva no nome?
+# O nome é 'Santo'?
 
-nome = input('Digite um nome -> ')
-nomeFatiado = nome.split()
-print(f'Tem "Silva" no nome: {"Silva" in nomeFatiado}')
+nome = str(input('Informe o nome -> '))
+fatiarNome = nome.split()
+
+print('O nome é "Santo"? {}'.format(fatiarNome[0] == 'Santo'))
+
+
+# Código ineficaz:
+# print('O nome é Santo -> {}'.format(nome[:5] == 'Santo'))
