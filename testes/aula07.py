@@ -1,3 +1,5 @@
+# Formatações especiais do Método .format()
+
 resp = input('Digite um título -> ')
 
 print('Alinhamento À Esquerda:')

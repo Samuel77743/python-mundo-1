@@ -1,34 +1,21 @@
-# Pedra, Papel Tesoura
+from random import randint
+from time import sleep
+again = 'S' #Variável usada posteriormente
 
-from random import choice
+print(f'{"=-="*10}TENTE ADIVINHAR{"=-="*10}')
 
-escolhas = [
-    'Pedra',
-    'Papel',
-    'Tesoura'
-]
+while again == 'S':
 
-print(f'{"PEDRA, PAPEL, TESOURA":=^50}')
-respJogador = str(input('SUA RESPOSTA ---> ')).capitalize()
-if not(respJogador in escolhas):
-    print('Resposta Inválida')
+    num = randint(1, 5)
+    print('Em que número o Computador "pensou" entre 1 - 5?')
+    resposta = int(input('Sua resposta -> '))
 
-else:
-    respCPU = choice(escolhas)
-    print(f'\n{"RESULTADO":-^20}')
-    print(f'{respJogador} x {respCPU}')
-
-    if respJogador == respCPU:
-        print('EMPATE')
-
-    elif respJogador == escolhas[0] and respCPU == escolhas[1]:
-        print('CPU Ganhou!')
-    elif respJogador == escolhas[1] and respCPU == escolhas[2]:
-        print('CPU Ganhou!')
-    elif respJogador == escolhas[2] and respCPU == escolhas[0]:
-        print('CPU Ganhou')
-
+    if resposta == num:
+        print(f'Acertou! O computador pensou em {num}')
     else:
-        print('Jogador ganhou. Parabéns!')
+        print(f'ERROU! O computador pensou em {num}')
+    
+        again = str(input('\nGostaria de tentar novamente? [S/N] -> ')).upper()
+
 
 
